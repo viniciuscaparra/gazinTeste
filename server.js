@@ -8,11 +8,8 @@ app.listen(3000, function() {
 
 app.set('view engine', 'ejs')
 
-app.use(express.static(__dirname + '/public'))
-
-app.get('/', (req, res) => {
-    res.render(express.static('index.ejs'));
-})
+app.use('/assets', express.static(__dirname + '/assets'))
+app.use('/', express.static(__dirname + '/views'))
 
 app.post('/show', (req, res) => {
     console.log('Hello again..')

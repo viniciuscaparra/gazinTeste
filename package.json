@@ -2,7 +2,7 @@
     "name": "desktop",
     "version": "1.0.0",
     "description": "testeGazin",
-    "main": "index.js",
+    "main": "index.html",
     "dependencies": {
         "ejs": "^3.1.6",
         "express": "^4.17.1",
