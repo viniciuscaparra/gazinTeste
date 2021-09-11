@@ -1,0 +1,53 @@
+.titulo {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 35px 0px 15px 0px;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    padding: 0px 0px 0px 10px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+}
+
+.box {
+    padding: 50px 0px 50px 0px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    background-color: rgb(3, 44, 177);
+    text-align: center;
+}
+
+.cadastrar {
+    width: 80%;
+    height: 45px;
+    background-color: white;
+    color: rgb(0, 0, 110);
+    border: none;
+    border-radius: 30px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    background: #00006b;
+    color: white;
+    transition: ease 0.3s;
+}
+
+.lista {
+    width: 100%;
+    margin-top: 35px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+}
+
+.list {
+    width: 100%;
+    text-align: center;
+}

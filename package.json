@@ -1,0 +1,26 @@
+{
+    "name": "desktop",
+    "version": "1.0.0",
+    "description": "testeGazin",
+    "main": "index.js",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "node.js": "^0.0.1-security",
+        "puppeteer": "^10.2.0",
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nomdemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/viniciuscaparra?tab=repositories"
+    },
+    "author": "Vinicius Caparra",
+    "license": "ISC"
+}
